@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
 	console.log("Hej!");
@@ -6,7 +7,7 @@ export default function Home() {
 		<main className={styles.main}>
 			<h1>Home page</h1>
 			<p>
-				<a href="/about">About us</a>
+				<Link href="/about">About us</Link>
 			</p>
 		</main>
 	);
